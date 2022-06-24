@@ -4,7 +4,7 @@ import React from 'react';
 export default function MainPage() {
     return <div>
         <div className="container">
-            <img className="main-pic" src={"./img/main-pics.png"} alt="main-pic" />
+            <img className="main-pic" src={"./img/profile-photo.jpg"} alt="main-pic" />
         <h2>Hi, my name is Elena 👋</h2>
         <p><span className="sign">{'>'}</span> I’m a junior <span className="bg">frontend</span> developer</p>
         <p><span className="sign">{'>'}</span> I know <span className="bg">React/Next.js/Tailwind</span></p>

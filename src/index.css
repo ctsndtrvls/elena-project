@@ -7,7 +7,8 @@
 .container {
   display: flex;
   flex-direction: column;
-  width: 500px;
+  max-width: 500px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -31,6 +32,9 @@
 
 .main-pic {
   margin: 53px auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 999px;
 }
 
 .container h2 {
@@ -53,6 +57,14 @@
   }
 }
 
+@media screen and (max-width: 500px) {
+  * {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+
 .container-projects a {
   display: inline-block;
   text-decoration-line: underline;
@@ -65,11 +77,12 @@
 .project {
   border: 3px solid #000000;
   width: 90%;
+  background-color: white;
 }
 
-/* .project:hover {
-
-} */
+.project:hover {
+  filter: drop-shadow(0 25px 25px rgb(0 0 0 / 0.15));
+}
 
 .project-img {
   width: 100%;
@@ -85,6 +98,7 @@
   margin-top: 13px;
   margin-left: 36px;
   color: #7C7C7C;
+  font-size: 18px;
 }
 
 .git-link {
