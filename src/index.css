@@ -58,7 +58,7 @@
 }
 
 @media screen and (max-width: 500px) {
-  * {
+  body {
     padding-left: 10px;
     padding-right: 10px;
   }
