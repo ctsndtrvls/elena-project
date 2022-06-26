@@ -19,7 +19,9 @@ export default function MainPage() {
 
             <div className="container-projects">
                 <div className="project">
-                    <img src={"./img/project-pic-map.svg"} alt="project-weather" className="project-img" />
+                    <a href="https://weather.pervova.dev/">
+                        <img src={"./img/project-pic-map.svg"} alt="project-weather" className="project-img" />
+                    </a>
                     <p><a href="https://weather.pervova.dev/"> Guess the weather</a></p>
                     <div className="project-decr">App gives you a location <br />
                     You guess the weather</div>
@@ -29,7 +31,9 @@ export default function MainPage() {
                     </div>
                 </div>
                 <div className="project">
+                <a href="https://fragments.pervova.dev/">
                     <img src={"./img/fragments-screen.png"} alt="project-weather" className="project-img" />
+                </a>
                     <p><a href="https://fragments.pervova.dev/">Science fragments</a></p>
                     <div className="project-decr">This is a place where I collect <br />
                     all the new science stuff I learn</div>
@@ -45,7 +49,7 @@ export default function MainPage() {
                     You guess the weather</div>
                     <div className="git-link">
                     <img src={"./img/git.svg"} alt="project-weather" height="30px" width="30px" /> 
-                    <a href="https://github.com/ctsndtrvls/">https://github.com/ctsndtrvls/</a>
+                    <a href="https://github.com/ctsndtrvls/">https://github.com/ctsndt...</a>
                     </div>
                 </div>
             </div>
