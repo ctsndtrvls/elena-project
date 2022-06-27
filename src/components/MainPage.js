@@ -7,10 +7,10 @@ export default function MainPage() {
             <img className="main-pic" src={"./img/profile-photo.jpg"} alt="main-pic" />
         <h2>Hi, my name is Elena 👋</h2>
         <p><span className="sign">{'>'}</span> I’m a junior <span className="bg">frontend</span> developer</p>
-        <p><span className="sign">{'>'}</span> I know <span className="bg">HTML&CSS/JavaScript/Tailwind</span></p>
-        <p><span className="sign">{'>'}</span> I <span className="bg">fled</span> Russia after the war started </p>
-        <p><span className="sign">{'>'}</span> I want <span className="bg">Germany</span> to become my new home 🏠</p>
-        <p><span className="sign">{'>'}</span> Außerdem spreche ich fließend <span className="bg">Deutsch</span></p>
+        <p><span className="sign">{'>'}</span> I know <span className="bg">HTML/CSS/JavaScript /React/Tailwind</span></p>
+        <p><span className="sign">{'>'}</span> I <span className="bg">fled</span> Russia after the war started and I don't feel myself connected to it anymore</p>
+        <p><span className="sign">{'>'}</span> I want <span className="bg">Germany</span> to become my new home 🏠. I'm inspired of the country and learning German is one of my hobbies!</p>
+        <p><span className="sign">{'>'}</span> Übrigens spreche ich fließend <span className="bg">Deutsch</span></p>
         <p><span className="sign">{'>'}</span> I really want to work with <span className="bg">IONE!</span></p>
         <p><span className="sign">{'>'}</span> I think IONE should hire me because I’m highly <span className="bg">motivated</span> and I learn really fast 💨</p>
         <p><span className="sign">{'>'}</span> Check out my projects:</p>
@@ -42,21 +42,11 @@ export default function MainPage() {
                     <a href="https://github.com/ctsndtrvls/science-fr">https://github.com/ctsndt...</a>
                     </div>
                 </div>
-                <div className="project">
-                    <img src={"./img/project-pic-map.svg"} alt="project-weather" className="project-img" />
-                    <p><a href="#"> Guess the weather</a></p>
-                    <div className="project-decr">App gives you a location <br />
-                    You guess the weather</div>
-                    <div className="git-link">
-                    <img src={"./img/git.svg"} alt="project-weather" height="30px" width="30px" /> 
-                    <a href="https://github.com/ctsndtrvls/">https://github.com/ctsndt...</a>
-                    </div>
-                </div>
             </div>
             <div className="container">
                 <div className="recommendation">
                     <p><span className="sign">{'>'}</span> Recommendation from my mentor:</p>
-                    <p className="line">Elena is great bla bla write more text lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                    <p className="line">I watched Elena grow her capacity in web development over the past months and my observation is that she’s an extremely fast learner. She’s also very persistent and never gives up, when faced with some difficulty. I’m confident, that she’ll pick up any tech needed for her new job really fast and will be a great and ever-growing asset to any company lucky enough to hire her. </p>
                     <p>Ivan</p>
                     </div>
                     <div className="end">
