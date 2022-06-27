@@ -47,7 +47,10 @@
 
 .container-projects {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media screen and (max-width: 1350px) {
