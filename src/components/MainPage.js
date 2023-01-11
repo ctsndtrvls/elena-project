@@ -9,7 +9,7 @@ export default function MainPage() {
         <p><span className="sign">{'>'}</span> I’m a junior <span className="bg">frontend</span> developer</p>
         <p><span className="sign">{'>'}</span> I study <span className="bg">media informatics</span> at Technical University of Berlin 💻</p>
         <p><span className="sign">{'>'}</span> I know <span className="bg">HTML/CSS/JavaScript /React/Tailwind</span></p>
-        <p><span className="sign">{'>'}</span> I'm also familiar with <span className="bg">C and Python</span>🤓</p>
+        <p><span className="sign">{'>'}</span> I'm also familiar with <span className="bg">C and Python</span></p>
         <p><span className="sign">{'>'}</span> Übrigens spreche ich fließend <span className="bg">Deutsch</span>💫</p>
         <p><span className="sign">{'>'}</span> Check out my projects:</p>
         </div>
