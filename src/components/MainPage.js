@@ -7,12 +7,10 @@ export default function MainPage() {
             <img className="main-pic" src={"./img/profile-photo.jpg"} alt="main-pic" />
         <h2>Hi, my name is Elena 👋</h2>
         <p><span className="sign">{'>'}</span> I’m a junior <span className="bg">frontend</span> developer</p>
+        <p><span className="sign">{'>'}</span> I study <span className="bg">media informatics</span> at Technical University of Berlin</p>
         <p><span className="sign">{'>'}</span> I know <span className="bg">HTML/CSS/JavaScript /React/Tailwind</span></p>
-        <p><span className="sign">{'>'}</span> I am also familiar with <span className="bg">C and Python</span></p>
-        <p><span className="sign">{'>'}</span> I'm studying <span className="bg">media informatics</span> at Technical University of Berlin</p>
+        <p><span className="sign">{'>'}</span> I'm also familiar with <span className="bg">C and Python</span></p>
         <p><span className="sign">{'>'}</span> Übrigens spreche ich fließend <span className="bg">Deutsch</span></p>
-        <p><span className="sign">{'>'}</span> I really want to work with <span className="bg">IONE!</span></p>
-        <p><span className="sign">{'>'}</span> I think IONE should hire me because I’m highly <span className="bg">motivated</span> and I learn really fast 💨</p>
         <p><span className="sign">{'>'}</span> Check out my projects:</p>
         </div>
 
