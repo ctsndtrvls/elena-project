@@ -8,7 +8,7 @@ export default function MainPage() {
         <h2>Hi, my name is Elena 👋</h2>
         <p><span className="sign">{'>'}</span> I’m a junior <span className="bg">frontend</span> developer</p>
         <p><span className="sign">{'>'}</span> I know <span className="bg">HTML/CSS/JavaScript /React/Tailwind</span></p>
-        <p><span className="sign">{'>'}</span> I <span className="bg">fled</span> Russia after the war started and I don't feel myself connected to it anymore</p>
+        <p><span className="sign">{'>'}</span> I'm <span className="bg">studying</span> Russia after the war started and I don't feel myself connected to it anymore</p>
         <p><span className="sign">{'>'}</span> I want <span className="bg">Germany</span> to become my new home 🏠. I'm inspired of the country and learning German is one of my hobbies!</p>
         <p><span className="sign">{'>'}</span> Übrigens spreche ich fließend <span className="bg">Deutsch</span></p>
         <p><span className="sign">{'>'}</span> I really want to work with <span className="bg">IONE!</span></p>
