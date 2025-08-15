@@ -6,11 +6,11 @@ export default function MainPage() {
         <div className="container">
             <img className="main-pic" src={"./img/profile-photo.jpg"} alt="main-pic" />
         <h2>Hi, my name is Elena 👋</h2>
-        <p><span className="sign">{'>'}</span> I’m a junior <span className="bg">frontend</span> developer</p>
-        <p><span className="sign">{'>'}</span> I study <span className="bg">media informatics</span> at Technical University of Berlin 💻</p>
-        <p><span className="sign">{'>'}</span> I know <span className="bg">HTML/CSS/JavaScript /React/Tailwind</span></p>
-        <p><span className="sign">{'>'}</span> I'm also familiar with <span className="bg">C and Python</span></p>
-        <p><span className="sign">{'>'}</span> Übrigens spreche ich fließend <span className="bg">Deutsch</span>💫</p>
+        <p><span className="sign">{'>'}</span> I’m a full-stack <span className="bg">developer</span> from Berlin</p>
+        <p><span className="sign">{'>'}</span> I study <span className="bg">media computer science</span> at Technical University of Berlin 💻</p>
+        <p><span className="sign">{'>'}</span> I know <span className="bg">JavaScript, React, PHP, MySQL</span></p>
+        <p><span className="sign">{'>'}</span> I'm also familiar with <span className="bg">Python</span></p>
+        <p><span className="sign">{'>'}</span> Übrigens spreche ich auch fließend <span className="bg">Deutsch</span>💫</p>
         <p><span className="sign">{'>'}</span> Check out my projects:</p>
         </div>
 
@@ -41,7 +41,7 @@ export default function MainPage() {
                     </div>
                 </div>
             </div>
-            <div className="container">
+            {/* <div className="container">
                 <div className="recommendation">
                     <p><span className="sign">{'>'}</span> Recommendation from my mentor:</p>
                     <p className="line">I watched Elena grow her capacity in web development over the past months and my observation is that she’s an extremely fast learner. She’s also very persistent and never gives up, when faced with some difficulty. I’m confident, that she’ll pick up any tech needed for her new job really fast and will be a great and ever-growing asset to any company lucky enough to hire her. </p>
@@ -49,6 +49,13 @@ export default function MainPage() {
                     </div>
                     <div className="end">
                     <p><span className="sign">{'>'}</span> Thanks for your attention! 🙌</p>
+                </div>
+            </div> */}
+            
+            <div className="container" style={{marginTop: '2rem'}}>
+                <div className="contacts">
+                    <h3>📧 Get in touch</h3>
+                    <p><span className="sign">{'>'}</span> Email: <a href="mailto:elena.pervova.mail@gmail.com" className="contact-link">elena.pervova.mail@gmail.com</a></p>
                 </div>
             </div>
         </div>
