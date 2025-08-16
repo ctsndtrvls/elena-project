@@ -56,6 +56,7 @@ export default function MainPage() {
                 <div className="contacts">
                     <h3>📧 Get in touch</h3>
                     <p><span className="sign">{'>'}</span> Email: <a href="mailto:elena.pervova.mail@gmail.com" className="contact-link">elena.pervova.mail@gmail.com</a></p>
+                    <p><span className="sign">{'>'}</span> LeetCode: <a href="https://leetcode.com/u/ctsndtrvls/" className="contact-link" target="_blank" rel="noopener noreferrer">leetcode.com/u/ctsndtrvls/</a></p>
                 </div>
             </div>
         </div>
